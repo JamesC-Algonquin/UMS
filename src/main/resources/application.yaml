@@ -1,2 +1,10 @@
 server:
   port: 9001
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: e3c4922386597a116feb
+            client-secret: 1ad02f19f8b502b1ec07d7e73ab887cf685aa961
