@@ -28,4 +28,6 @@ public class RoleService {
     public Role findByRole(String role) {
         return roleRepository.findByRole(role);
     }
+
+
 }
